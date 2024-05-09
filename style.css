@@ -76,6 +76,7 @@ body::before {
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .quote,
@@ -136,11 +137,6 @@ h2 {
   padding: 1.5em;
   transition: transform 0.3s ease-in-out;
 }
-
-/* .checkpoint div:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-} */
 
 .checkpoint p {
   line-height: 27px;
@@ -210,4 +206,38 @@ h2 {
 
 .checkpoint-img img {
   width: 100%;
+}
+
+.contents {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contents h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contents ol {
+  padding-left: 2em;
+  margin: 0;
+}
+
+.contents li {
+  margin: 5px 0;
+}
+
+.contents a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.contents a:hover {
+  color: #007bff;
 }
