@@ -113,6 +113,19 @@ h2 {
   margin-bottom: 0.5em;
 }
 
+.source-link {
+  color: #fff;
+  font-size: small;
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.source-link:hover {
+  color: #007bff;
+}
+
 .title p {
   color: #fff;
   font-size: 1.3em;
@@ -122,6 +135,10 @@ h2 {
 .timeline {
   margin: 5em auto;
   max-width: 34.15em;
+}
+
+.image-checkpoint {
+  text-align: center;
 }
 
 .checkpoint {
@@ -202,6 +219,7 @@ h2 {
 .checkpoint-img {
   align-items: center;
   width: 400px;
+  margin-bottom: 0.5em;
 }
 
 .checkpoint-img img {
@@ -213,7 +231,7 @@ h2 {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 1em;
-  max-width: 400px;
+  width: 800px;
   margin: 20px auto;
 }
 
@@ -240,4 +258,14 @@ h2 {
 
 .contents a:hover {
   color: #007bff;
+}
+
+.contents-list {
+  flex: 1;
+}
+
+.contents-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
